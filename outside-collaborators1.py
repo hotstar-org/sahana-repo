@@ -2,7 +2,7 @@ import requests
 import csv
 
 # GitHub API endpoint for outside collaborators of an organization
-url = 'https://api.github.com/orgs/hotstar-org/outside_collaborators'
+url = 'https://api.github.com/orgs/hotstar-org/outside_collaborators?per_page=100'
 
 # Personal access token (replace with your own token)
 token = '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'
